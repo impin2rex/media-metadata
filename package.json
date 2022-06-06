@@ -1,5 +1,5 @@
 {
-  "name": "media-metadata",
+  "name": "video-metadata",
   "version": "1.0.0",
   "description": "This package is built on top of MediaInfo. You can view any public video's metadata from the URL, or simply by inputting the file path.",
   "main": "index.js",

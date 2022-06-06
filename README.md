@@ -1,4 +1,4 @@
-# Video's MetaData Reader [media-metadata]
+# Video's MetaData Reader [video-metadata]
 
 This package is built on top of [MediaInfo](https://mediaarea.net/en/MediaInfo).
 You can view any public video's metadata from the URL, or simply by inputting the file path.
@@ -9,13 +9,13 @@ You can view any public video's metadata from the URL, or simply by inputting th
 Install my-project with npm
 
 ```bash
-  npm install media-metadata
+  npm install video-metadata
 ```
     
 ## Usage/Examples
 
 ```javascript
-const { fetchMediaInfoFromUrl, fetchMediaInfoFromFile} = require("media-metadata");
+const { fetchMediaInfoFromUrl, fetchMediaInfoFromFile} = require("video-metadata");
 
 (async () => {
   const metadataFromUrl = 
