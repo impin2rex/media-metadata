@@ -38,7 +38,6 @@ async function fetchMediaInfoFromUrl(url) {
     console.error('stderr:', stderr);
     return null;
   }
-  console.log(stdout);
   return JSON.parse(stdout);
 }
 
